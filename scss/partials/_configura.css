@@ -1,0 +1,79 @@
+.configura .configura-text h2 {
+  font-size: 7.8vw;
+  color: #383838;
+  letter-spacing: 0;
+  line-height: 4.6vw;
+  margin-bottom: 80px; }
+.configura .configura-text .conf-one {
+  margin-left: 8%; }
+.configura .configura-text .conf-two {
+  margin-left: 18%; }
+.configura .configura-text .conf-three {
+  margin-left: 28%;
+  display: flex; }
+  .configura .configura-text .conf-three small {
+    width: 25%;
+    margin-left: 13%;
+    font-size: 20px;
+    color: #383838;
+    letter-spacing: 0;
+    line-height: 30px; }
+    @media screen and (max-width: 1610px) {
+      .configura .configura-text .conf-three small {
+        width: 40%; } }
+    @media screen and (max-width: 1610px) {
+      .configura .configura-text .conf-three small {
+        font-size: 15px;
+        line-height: 20px; } }
+.configura button {
+  background: #FF5201;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 45%;
+  padding: 2px 30px;
+  position: relative;
+  left: 0%;
+  top: -44px; }
+  @media screen and (max-width: 1610px) {
+    .configura button {
+      font-size: 10px;
+      line-height: 5px;
+      padding: 5px 10px;
+      border-radius: 20px; } }
+
+.show-me-one {
+  width: 100%;
+  height: 300px;
+  background-color: lightgreen;
+  display: flex;
+  position: relative;
+  margin: 7.8vw 0; }
+  .show-me-one h2 {
+    margin: auto;
+    font-size: 4.2vw;
+    color: #FFFFFF;
+    letter-spacing: 0; }
+  .show-me-one button {
+    background: #FF5201;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding: 2px 30px;
+    position: absolute;
+    left: 50%;
+    bottom: -18px;
+    transform: translateX(-50%); }
+    @media screen and (max-width: 1610px) {
+      .show-me-one button {
+        font-size: 10px;
+        line-height: 5px;
+        padding: 5px 10px;
+        border-radius: 20px;
+        bottom: -9px; } }
+
+/*# sourceMappingURL=_configura.css.map */

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    margin: 230px 11%;
+
+    @media screen and (max-width: 767px){
+        margin: 120px 11%;
+    }
+}
