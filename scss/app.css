@@ -490,7 +490,7 @@ header {
       align-items: center; }
       .carosel-one .carosel-top .carosel-arrow .slick-arrow {
         margin: 0 10px;
-        font-size: 25px;
+        font-size: 40px;
         color: #383838; }
       .carosel-one .carosel-top .carosel-arrow .slick-arrow.active {
         color: #FF5201; }
@@ -586,7 +586,7 @@ header {
       font-size: 25px;
       margin-left: 20px; }
   .drop-down-menu-mobile .drop-down-menu-mobile-main {
-    padding: 40px 20px; }
+    padding: 25px 20px; }
     .drop-down-menu-mobile .drop-down-menu-mobile-main .main-mobile-dropdown-item {
       display: flex;
       justify-content: space-between;
@@ -613,14 +613,14 @@ header {
         letter-spacing: 0;
         line-height: 24px; }
   .drop-down-menu-mobile .drop-menu-mattress {
-    padding: 40px;
+    padding: 10px 35px;
     display: none; }
     .drop-down-menu-mobile .drop-menu-mattress button {
       background: #FF5201;
       border-radius: 20px;
       opacity: 0.9;
       color: white;
-      padding: 10px 30px;
+      padding: 10px 35px;
       margin: 20px 10%; }
     .drop-down-menu-mobile .drop-menu-mattress .drop-menu-mattress-item {
       padding: 10px 0;
