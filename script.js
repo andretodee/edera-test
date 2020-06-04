@@ -11,7 +11,6 @@ function slider(){
     {
       breakpoint: 768,
       settings: {
-        arrows: false,
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 1
@@ -77,6 +76,21 @@ function hamburgerOpen(){
     });
 };
 
+// FUNCTION TO VIEW DROP-DOWN-MENU-MOBILE
+function viewDropDownMain(){
+    $('.hamburger-menu').click(function(){
+        $('.drop-down-menu-mobile').toggle();
+    });
+};
+
+// FUNCTION TO VIEW DROP-DOWN-MATTRESS
+function viewDropDownMattress(){
+    $('.open-mat').click(function(){
+        $('.drop-menu-mattress').toggle();
+        $('.open-mat').toggleClass('opened');
+    });
+};
+
 // FUNCTION THAT CALLS ALL OTHERS FUNCTIONS
 function init(){
     slider();
@@ -85,6 +99,8 @@ function init(){
     tabActive();
     arrowActive();
     hamburgerOpen();
+    viewDropDownMain();
+    viewDropDownMattress();
 };
 
 // INIT FUNCTION CALLED INTO LOADED DOM

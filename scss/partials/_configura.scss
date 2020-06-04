@@ -1,24 +1,49 @@
 .configura{
+    position: relative;
+    margin-bottom: 14.6vw;
+
+    @media screen and (max-width: 450px){
+        margin-bottom: 200px;
+    }
+
     .configura-text{
+
         h2{
             font-size: 7.8vw;
             color: #383838;
             letter-spacing: 0;
             line-height: 4.6vw;
-            margin-bottom: 80px;
+            margin-bottom: 4.2vw;
+
+            @media screen and (max-width: 450px){
+                font-size: 40px;
+                line-height: 40px;
+            }
         }
 
         .conf-one{
             margin-left: 8%;
+
+            @media screen and (max-width: 450px){
+                margin-left: 25%;
+            }
         }
 
         .conf-two{
-            margin-left: 18%;
+            margin-left: 21%;
+
+            @media screen and (max-width: 450px){
+                margin-left: 17%;
+            }
         }
 
         .conf-three{
-            margin-left: 28%;
+            margin-left: 33%;
             display: flex;
+
+            @media screen and (max-width: 450px){
+                margin-left: 53%;
+            }
 
             small{
                 width: 25%;
@@ -35,6 +60,14 @@
                 @media screen and (max-width: 1610px){
                     font-size: 15px;
                     line-height: 20px;
+                }
+
+                @media screen and (max-width: 768px){
+                    width: 50%;
+                }
+
+                @media screen and (max-width: 450px){
+                    display: none;
                 }
             }
         }
@@ -59,22 +92,87 @@
             padding: 5px 10px;
             border-radius: 20px;
         }
+
+        @media screen and (max-width: 1027px){
+            margin-left: 30%;
+        }
+
+        @media screen and (max-width: 450px){
+            display: none;
+        }
     }
+
+    .configura-img{
+        position: absolute;
+        top: 39%;
+        right: 53%;
+        // width: 100%;
+
+        @media screen and (max-width: 450px){
+            top: 68%;
+            right: 0%;
+            width: 95%;
+        }
+
+        img{
+            @media screen and (max-width: 450px){
+                width: 100%;
+            }
+        }
+    }
+}
+
+.configura-text-bottom-mobile{
+    width: 100%;
+    padding: 0px 70px;
+    display: none;
+
+    @media screen and (max-width: 450px){
+        display: block;
+    }
+
+    p{
+        font-size: 16px;
+        color: #383838;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+
+    button{
+        background: #FF5201;
+        color: #FFFFFF;
+        font-size: 15px;
+        padding: 5px 40px;
+        border-radius: 20px;
+        margin: 20px 0;
+    }
+
 }
 
 .show-me-one{
     width: 100%;
     height: 300px;
-    background-color: lightgreen;
-    display: flex;
     position: relative;
     margin: 7.8vw 0;
 
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
     h2{
-        margin: auto;
-        font-size: 4.2vw;
+        font-size: 60px;
         color: #FFFFFF;
         letter-spacing: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        @media screen and (max-width: 1027px){
+            font-size: 40px;
+            line-height: 40px;
+        }
     }
 
     button{
@@ -83,7 +181,6 @@
         font-size: 20px;
         color: #FFFFFF;
         letter-spacing: 0;
-        line-height: 30px;
         padding: 2px 30px;
         position: absolute;
         left: 50%;
@@ -91,11 +188,11 @@
         transform: translateX(-50%);
 
         @media screen and (max-width: 1610px){
-            font-size: 10px;
-            line-height: 5px;
-            padding: 5px 10px;
+            font-size: 15px;
+            padding: 5px 40px;
             border-radius: 20px;
-            bottom: -9px;
+            margin: 20px 0;
+            bottom: -35px;
         }
     }
 }
