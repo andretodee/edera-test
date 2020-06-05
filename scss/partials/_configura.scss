@@ -168,6 +168,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        text-align: center;
 
         @media screen and (max-width: 1027px){
             font-size: 40px;
@@ -195,4 +196,8 @@
             bottom: -35px;
         }
     }
+}
+
+.show-two{
+    margin: 100px 0;
 }

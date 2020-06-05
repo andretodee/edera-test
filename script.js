@@ -9,17 +9,32 @@ function slider(){
   nextArrow:"<i class='fas fa-long-arrow-alt-right slick-arrow active'></i>",
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 680,
       settings: {
+        // arrows: false,
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 1
       }
-    },
+    }
+  ]
+});
+};
+
+// FUNCTION FOR SLIDER USING SLICKJS
+function sliderTwo(){
+    $('.slider-two').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  appendArrows: $('.carosel-arrow-two'),
+  prevArrow:"<i class='fas fa-long-arrow-alt-left slick-arrow'></i>",
+  nextArrow:"<i class='fas fa-long-arrow-alt-right slick-arrow active'></i>",
+  responsive: [
     {
-      breakpoint: 480,
+      breakpoint: 680,
       settings: {
-        arrows: false,
+        // arrows: false,
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 1
@@ -96,6 +111,7 @@ function viewDropDownMattress(){
 // FUNCTION THAT CALLS ALL OTHERS FUNCTIONS
 function init(){
     slider();
+    sliderTwo();
     desktopMenu();
     arrowScroll();
     tabActive();
