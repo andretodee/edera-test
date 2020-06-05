@@ -73,12 +73,14 @@ function hamburgerOpen(){
     $('.hamburger-menu').click(function(){
         $('.h-line-one').toggleClass('open');
         $('.h-line-two').toggleClass('open');
+        $('.h-line-three').toggleClass('open');
     });
 };
 
 // FUNCTION TO VIEW DROP-DOWN-MENU-MOBILE
 function viewDropDownMain(){
     $('.hamburger-menu').click(function(){
+        $('main').toggle();
         $('.drop-down-menu-mobile').toggle();
     });
 };

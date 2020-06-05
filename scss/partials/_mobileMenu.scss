@@ -16,6 +16,7 @@
         top: 0;
         left: 0;
         right: 0;
+        z-index: 1000;
 
         .mobile-logo{
             max-width: 170px;
@@ -41,10 +42,12 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
+                transition: .5s;
 
                 .h-line-one{
                     width: 100%;
                     border: 1px solid #383838;
+                    transition: .3s;
 
                     &.open{
                         transform: rotate(-30deg);
@@ -54,15 +57,21 @@
                 .h-line-two{
                     width: 100%;
                     border: 1px solid #383838;
+                    transition: .3s;
 
                     &.open{
                         transform: rotate(30deg);
+                        margin-top: -11px;
                     }
                 }
 
                 .h-line-three{
                     width: 100%;
                     border: 1px solid #FF5201;
+
+                    &.open{
+                        margin-top: 3px;
+                    }
                 }
 
             }
@@ -91,7 +100,7 @@
         .mobile-dropdown-icon i{
             color: #FF5201;
             font-size: 25px;
-            margin-left: 20px;
+            margin-left: 30px;
         }
     }
 

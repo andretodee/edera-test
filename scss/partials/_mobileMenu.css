@@ -13,7 +13,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    right: 0; }
+    right: 0;
+    z-index: 1000; }
     .mobile-menu-wrapper .mobile-menu .mobile-logo {
       max-width: 170px; }
       .mobile-menu-wrapper .mobile-menu .mobile-logo img {
@@ -30,20 +31,26 @@
         margin-top: 3px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around; }
+        justify-content: space-around;
+        transition: .5s; }
         .mobile-menu-wrapper .mobile-menu .mobile-icons .hamburger-menu .h-line-one {
           width: 100%;
-          border: 1px solid #383838; }
+          border: 1px solid #383838;
+          transition: .3s; }
           .mobile-menu-wrapper .mobile-menu .mobile-icons .hamburger-menu .h-line-one.open {
             transform: rotate(-30deg); }
         .mobile-menu-wrapper .mobile-menu .mobile-icons .hamburger-menu .h-line-two {
           width: 100%;
-          border: 1px solid #383838; }
+          border: 1px solid #383838;
+          transition: .3s; }
           .mobile-menu-wrapper .mobile-menu .mobile-icons .hamburger-menu .h-line-two.open {
-            transform: rotate(30deg); }
+            transform: rotate(30deg);
+            margin-top: -11px; }
         .mobile-menu-wrapper .mobile-menu .mobile-icons .hamburger-menu .h-line-three {
           width: 100%;
           border: 1px solid #FF5201; }
+          .mobile-menu-wrapper .mobile-menu .mobile-icons .hamburger-menu .h-line-three.open {
+            margin-top: 3px; }
 
 .drop-down-menu-mobile {
   margin-top: 80px;
@@ -62,7 +69,7 @@
     .drop-down-menu-mobile .drop-down-menu-mobile-top .mobile-dropdown-icon i {
       color: #FF5201;
       font-size: 25px;
-      margin-left: 20px; }
+      margin-left: 30px; }
   .drop-down-menu-mobile .drop-down-menu-mobile-main {
     padding: 25px 20px; }
     .drop-down-menu-mobile .drop-down-menu-mobile-main .main-mobile-dropdown-item {
