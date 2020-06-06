@@ -98,7 +98,7 @@ function arrowActive(){
 // FUNCTION TO OPEN AND CLOSE THE MENU FOR MOBILE
 function desktopMenu(){
   $('.mat').click(function(){
-      $('.drop-menu-desktop-wrapper').slideToggle();
+      $('.drop-menu-desktop-wrapper').toggle();
   });
 };
 
