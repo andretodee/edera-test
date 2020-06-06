@@ -1,0 +1,70 @@
+.settore {
+  width: 100%;
+  position: relative;
+  margin: 7.8vw 0; }
+  @media screen and (max-width: 450px) {
+    .settore {
+      margin-top: 200px; } }
+  .settore .settore-main {
+    display: flex;
+    justify-content: flex-end;
+    position: relative; }
+    .settore .settore-main .settore-main-text {
+      position: absolute;
+      left: 0;
+      top: 85px; }
+      @media screen and (max-width: 450px) {
+        .settore .settore-main .settore-main-text {
+          top: -95px;
+          left: 50%;
+          transform: translateX(-50%); } }
+      .settore .settore-main .settore-main-text h2 {
+        font-size: 10.4vw;
+        color: #383838;
+        letter-spacing: 0;
+        line-height: 10.9vw; }
+        @media screen and (max-width: 450px) {
+          .settore .settore-main .settore-main-text h2 {
+            font-size: 60px;
+            line-height: 60px; } }
+    .settore .settore-main .settore-img {
+      min-height: 400px; }
+      .settore .settore-main .settore-img img {
+        width: 100%;
+        height: 100%; }
+  .settore .settore-text {
+    display: flex;
+    padding: 50px 0; }
+    @media screen and (max-width: 850px) {
+      .settore .settore-text {
+        flex-direction: column; } }
+    .settore .settore-text .settore-text-item-first {
+      width: 28%;
+      margin-right: 10.7vw; }
+    .settore .settore-text .settore-text-item-second {
+      width: 50%; }
+    @media screen and (max-width: 850px) {
+      .settore .settore-text .settore-text-item-first, .settore .settore-text .settore-text-item-second {
+        width: 100%;
+        padding: 0 20px; } }
+    .settore .settore-text .settore-text-item-first p, .settore .settore-text .settore-text-item-second p {
+      margin: 20px 0;
+      font-size: 16px;
+      color: #404040;
+      letter-spacing: 0;
+      line-height: 26px; }
+      .settore .settore-text .settore-text-item-first p.settore-text-strong, .settore .settore-text .settore-text-item-second p.settore-text-strong {
+        font-size: 20px;
+        color: #383838;
+        letter-spacing: 0;
+        line-height: 30px; }
+    .settore .settore-text .settore-text-item-first button, .settore .settore-text .settore-text-item-second button {
+      background: #FF5201;
+      border-radius: 20px;
+      font-size: 20px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      padding: 2px 30px;
+      margin-top: 30px; }
+
+/*# sourceMappingURL=_sector.css.map */

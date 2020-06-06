@@ -5,8 +5,8 @@ function slider(){
   centerPadding: '60px',
   slidesToShow: 3,
   appendArrows: $('.carosel-arrow'),
-  prevArrow:"<i class='fas fa-long-arrow-alt-left slick-arrow'></i>",
-  nextArrow:"<i class='fas fa-long-arrow-alt-right slick-arrow active'></i>",
+  prevArrow:"<i class='fas fa-long-arrow-alt-left slick-arrow-one'></i>",
+  nextArrow:"<i class='fas fa-long-arrow-alt-right slick-arrow-one active'></i>",
   responsive: [
     {
       breakpoint: 680,
@@ -28,8 +28,8 @@ function sliderTwo(){
   centerPadding: '60px',
   slidesToShow: 3,
   appendArrows: $('.carosel-arrow-two'),
-  prevArrow:"<i class='fas fa-long-arrow-alt-left slick-arrow'></i>",
-  nextArrow:"<i class='fas fa-long-arrow-alt-right slick-arrow active'></i>",
+  prevArrow:"<i class='fas fa-long-arrow-alt-left slick-arrow-two'></i>",
+  nextArrow:"<i class='fas fa-long-arrow-alt-right slick-arrow-two active'></i>",
   responsive: [
     {
       breakpoint: 680,
@@ -69,9 +69,14 @@ function tabActive(){
 
 // FUNCTION TO CHANGE THE ACTIVE CLASS ON CLICK
 function arrowActive(){
-    $('.slick-arrow').click(function(){
+    $('.slick-arrow-one').click(function(){
         var selectedArrow = $(this);
-        $('.slick-arrow').removeClass('active');
+        $('.slick-arrow-one').removeClass('active');
+        selectedArrow.addClass('active');
+    });
+    $('.slick-arrow-two').click(function(){
+        var selectedArrow = $(this);
+        $('.slick-arrow-two').removeClass('active');
         selectedArrow.addClass('active');
     });
 };

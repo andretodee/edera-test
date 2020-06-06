@@ -106,7 +106,7 @@
         position: absolute;
         top: 39%;
         right: 53%;
-        // width: 100%;
+        width: 55%;
 
         @media screen and (max-width: 450px){
             top: 68%;
@@ -115,9 +115,7 @@
         }
 
         img{
-            @media screen and (max-width: 450px){
-                width: 100%;
-            }
+            width: 100%;
         }
     }
 }
