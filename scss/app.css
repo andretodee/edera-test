@@ -277,6 +277,33 @@ header {
       .quality .quality-arrow-mobile {
         display: block; } }
 
+.desktop-insert {
+  position: absolute;
+  right: 0;
+  color: white; }
+  @media screen and (max-width: 450px) {
+    .desktop-insert {
+      display: none; } }
+  .desktop-insert .desktop-insert-one, .desktop-insert .desktop-insert-two {
+    width: 5.3vw;
+    height: 5.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .desktop-insert .desktop-insert-one p, .desktop-insert .desktop-insert-two p {
+      font-size: 10px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 30px;
+      margin-top: 5px; }
+    .desktop-insert .desktop-insert-one i, .desktop-insert .desktop-insert-two i {
+      font-size: 1.8vw; }
+  .desktop-insert .desktop-insert-one {
+    background-color: #383838; }
+  .desktop-insert .desktop-insert-two {
+    background-color: lightgrey; }
+
 .quality-text-bottom-mobile {
   display: none;
   margin-left: 26%;

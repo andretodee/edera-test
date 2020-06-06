@@ -131,6 +131,45 @@
     }
 }
 
+.desktop-insert{
+    position: absolute;
+    right: 0;
+    color: white;
+
+    @media screen and (max-width: 450px){
+        display: none;
+    }
+
+    .desktop-insert-one,.desktop-insert-two{
+        width: 5.3vw;
+        height: 5.3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            font-size: 10px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            line-height: 30px;
+            margin-top: 5px;
+        }
+
+        i{
+            font-size: 1.8vw;
+        }
+    }
+
+    .desktop-insert-one{
+        background-color: #383838;
+    }
+
+    .desktop-insert-two{
+        background-color: lightgrey;
+    }
+}
+
 .quality-text-bottom-mobile{
     display: none;
     margin-left: 26%;
@@ -155,6 +194,7 @@
         margin: 18px;
     }
 }
+
 .mobile-insert-wrapper{
     width: 100%;
     text-align: center;
