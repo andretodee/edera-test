@@ -9,9 +9,16 @@ function slider(){
   nextArrow:"<i class='fas fa-long-arrow-alt-right slick-arrow-one active'></i>",
   responsive: [
     {
-      breakpoint: 680,
+      breakpoint: 780,
       settings: {
-        // arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 2
+      }
+  },
+    {
+      breakpoint: 450,
+      settings: {
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 1
@@ -32,9 +39,16 @@ function sliderTwo(){
   nextArrow:"<i class='fas fa-long-arrow-alt-right slick-arrow-two active'></i>",
   responsive: [
     {
-      breakpoint: 680,
+      breakpoint: 780,
       settings: {
-        // arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 2
+      }
+  },
+    {
+      breakpoint: 450,
+      settings: {
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 1
