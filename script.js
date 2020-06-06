@@ -95,7 +95,7 @@ function hamburgerOpen(){
 // FUNCTION TO VIEW DROP-DOWN-MENU-MOBILE
 function viewDropDownMain(){
     $('.hamburger-menu').click(function(){
-        $('main').toggle();
+        $('main,footer').toggle();
         $('.drop-down-menu-mobile').toggle();
     });
 };

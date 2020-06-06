@@ -171,4 +171,61 @@
             }
         }
     }
+
+    .drop-down-footer{
+        background-color: #383838;
+        color: white;
+        padding: 20px;
+
+        .drop-down-footer-top{
+            display: flex;
+            justify-content: space-between;
+            padding: 25px 0;
+            border-bottom: 1px solid white;
+
+            p{
+                font-size: 16px;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                line-height: 24px;
+            }
+        }
+
+        .drop-down-footer-main{
+            display: flex;
+            justify-content: space-between;
+            padding: 25px 0;
+
+            p{
+                font-size: 12px;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                line-height: 16px;
+            }
+
+            .footer-mobile-tel-num{
+                text-align: right;
+            }
+        }
+
+        .drop-down-footer-main-bottom{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .search-bar{
+                background: #FFFFFF;
+                border-radius: 25px;
+                width: 80%;
+                height: 40px;
+                margin-top: 50px;
+
+                i{
+                    color: #383838;
+                    line-height: 40px;
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
 }
