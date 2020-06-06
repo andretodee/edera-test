@@ -9,7 +9,7 @@ function slider(){
   nextArrow:"<i class='fas fa-long-arrow-alt-right slick-arrow-one active'></i>",
   responsive: [
     {
-      breakpoint: 780,
+      breakpoint: 1025,
       settings: {
         centerMode: true,
         centerPadding: '40px',
@@ -39,7 +39,7 @@ function sliderTwo(){
   nextArrow:"<i class='fas fa-long-arrow-alt-right slick-arrow-two active'></i>",
   responsive: [
     {
-      breakpoint: 780,
+      breakpoint: 1025,
       settings: {
         centerMode: true,
         centerPadding: '40px',

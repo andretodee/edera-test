@@ -212,4 +212,8 @@
 
 .show-two{
     margin: 7.8vw 0;
+
+    @media screen and (max-width: 450px){
+        margin-top: 60px;
+    }
 }

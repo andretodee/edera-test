@@ -509,6 +509,9 @@ header {
 
 .show-two {
   margin: 7.8vw 0; }
+  @media screen and (max-width: 450px) {
+    .show-two {
+      margin-top: 60px; } }
 
 .carosel-one {
   width: 100%; }
