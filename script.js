@@ -105,6 +105,7 @@ function desktopMenu(){
 // FUNCTION TO CHANGE THE OPEN CLASS ON CLICK
 function hamburgerOpen(){
     $('.hamburger-menu').click(function(){
+        $('.hamburger-menu').toggleClass('open');
         $('.h-line-one').toggleClass('open');
         $('.h-line-two').toggleClass('open');
         $('.h-line-three').toggleClass('open');

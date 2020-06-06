@@ -44,6 +44,10 @@
                 justify-content: space-around;
                 transition: .5s;
 
+                &.open{
+                    margin-top: 6px;
+                }
+
                 .h-line-one{
                     width: 100%;
                     border: 1px solid #383838;

@@ -81,7 +81,7 @@ header {
           display: none; } }
       header .desktop-menu .header-bottom .logo img {
         max-width: 180px; }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1020px) {
           header .desktop-menu .header-bottom .logo img {
             display: none; } }
       header .desktop-menu .header-bottom .bottom-left {
@@ -528,14 +528,13 @@ header {
       line-height: 40px; }
       @media screen and (max-width: 450px) {
         .carosel-one .carosel-top h3 {
-          font-size: 25px;
-          line-height: 20px; } }
+          font-size: 25px; } }
     .carosel-one .carosel-top .carosel-arrow, .carosel-one .carosel-top .carosel-arrow-two {
       display: flex;
       align-items: center; }
       .carosel-one .carosel-top .carosel-arrow .slick-arrow, .carosel-one .carosel-top .carosel-arrow-two .slick-arrow {
         margin: 0 10px;
-        font-size: 40px;
+        font-size: 30px;
         color: #383838; }
       .carosel-one .carosel-top .carosel-arrow .slick-arrow.active, .carosel-one .carosel-top .carosel-arrow-two .slick-arrow.active {
         color: #FF5201; }
@@ -634,6 +633,8 @@ header {
         flex-direction: column;
         justify-content: space-around;
         transition: .5s; }
+        .mobile-menu-wrapper .mobile-menu .mobile-icons .hamburger-menu.open {
+          margin-top: 6px; }
         .mobile-menu-wrapper .mobile-menu .mobile-icons .hamburger-menu .h-line-one {
           width: 100%;
           border: 1px solid #383838;
@@ -791,7 +792,7 @@ header {
         height: 100%; }
   .settore .settore-text {
     display: flex;
-    padding: 50px 0; }
+    padding-top: 50px; }
     @media screen and (max-width: 850px) {
       .settore .settore-text {
         flex-direction: column; } }
